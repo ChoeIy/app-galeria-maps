@@ -132,7 +132,6 @@ export default function HomeScreen({ onNavigateTo }: HomeScreenProps) {
         <Text style={styles.fabText}>+</Text>
       </TouchableOpacity>
 
-      {/* Modal de visualização da foto */}
       <Modal visible={!!selectedPhoto} transparent animationType="slide">
         <View style={styles.modalOverlay}>
           <View style={styles.modalContent}>
@@ -168,7 +167,6 @@ export default function HomeScreen({ onNavigateTo }: HomeScreenProps) {
         </View>
       </Modal>
 
-      {/* Modal de renomear */}
       <Modal visible={renameModal} transparent animationType="fade">
         <View style={styles.renameOverlay}>
           <View style={styles.renameBox}>
@@ -187,7 +185,6 @@ export default function HomeScreen({ onNavigateTo }: HomeScreenProps) {
   );
 }
 
-// (mantenha os estilos exatamente como você tinha, sem alterações)
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#f3f4f6', paddingTop: 55 },
   headerContainer: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 20, marginBottom: 18 },
