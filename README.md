@@ -29,9 +29,7 @@ Desenvolvido com React Native (Expo) e SQLite.
 ### 📌 Pré-requisitos
 
 - Node.js 18 ou superior
-- Git instalado
 - Expo Go instalado no celular
-- (Opcional) Conta no Expo
 
 ---
 
@@ -39,7 +37,8 @@ Desenvolvido com React Native (Expo) e SQLite.
 
 git clone https://github.com/ChoeIy/app-galeria-maps.git  
 cd app-galeria-maps  
-npm install  
+npm install
+npx expo install expo-sqlite expo-image-picker expo-location react-native-maps
 
 ---
 
