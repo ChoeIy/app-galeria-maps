@@ -1,4 +1,4 @@
-# 📸 Galeria Offline - LaFoto
+# 📸 Galeria Offline - PinPic
 
 ![React Native](https://img.shields.io/badge/React%20Native-Expo-blue)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-green)
